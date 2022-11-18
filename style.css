@@ -1,0 +1,139 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+/* CONTAINER */
+.container {
+    background-color: hsl(216, 50%, 16%);
+    box-sizing: border-box;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Outfit', sans-serif;
+}
+/* IMAGE */
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+}
+.e-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: fill;
+    position: relative;
+}
+.image:hover {
+    cursor: pointer;
+}
+.view {
+    background-color: hsla(178, 100%, 50%, 50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    opacity: 0;
+}
+.view:hover {
+    opacity: 1;
+}
+
+/* TEXT */
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 23px;
+    font-weight: 600;
+    margin: 25px 0 10px 0;
+}
+h1:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p {
+    font-size: 18px;
+    margin: 18px 0 10px 0;
+}
+h2 {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+h3 {
+    padding-left: 10px;
+}
+p, h3, h4 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+h3, h4 {
+    font-size: 16px;
+}
+/* NUMBERS */
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 10px 0;
+}
+.eth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.days {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* AUTHOR INFO */
+.author-info {
+    border-top: 2px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.avatar {
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+/* FOOTER */
+footer {
+    height: 3vh;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
